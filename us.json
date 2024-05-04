@@ -1,0 +1,197 @@
+{
+    "message":"<p>Choose one or more categories below to begin.</p><p>If you are playing during Colonial Heritage Festival 2024 and you earn a perfect score on a game with at least 10 events, find Isaiah Thomas at the print shop to collect a free historic reprint.</p>",
+
+    "award":{
+        "eventCount":10,
+        "precent":100,
+        "message":"Congratulations! You earned a perfect score on a set with 10 or more events.  You have earned a reprint of a historic document.  Find Isaiah Thomas at the print shop and show him this screen. You must say \"I have become a true student of history\" to redeem your document."
+    },
+
+    "categories":[
+        {
+            "name":"Roots of American Liberty",
+            "description":"In the several hundred years prior to the American Revolution, events occured in England and America that influenced how Americans felt about libert at the time of the American founding.  Can you put them in chronological order?"
+        },{
+            "name":"Prelude to Independence",
+            "description":"In the decades before July 4, 1776, various events occured that would lead the birth of a new nation.  Become a master of American history and put these events in chronological order."
+        },{
+            "name":"American Revolution",
+            "description":"Can you chronologically organize the battles and other events that make up the American Revolution."
+        }
+
+    ],
+    "events":
+    [
+        {
+            "name":"King John taxes Barrons for war with France",
+            "category": "Roots of American Liberty",
+            "image":"images/kingjohn.jpg",
+            "text":"King John launches numerous unsuccessful invasions of France. To pay for the army, he repeatedly taxes the Barrons of England without thier consent",
+            "date":"1210",
+            "endDate":"1214"
+        },{
+            "name":"Signing of the Magna Charta",
+            "category": "Roots of American Liberty",
+            "image":"images/magnacharta.jpg",
+            "text":"The Barrons of England march to the fields of Runnymead (near London) and compel the king to accept the term of the Magna Charta, which grants that (1) there shall be no new taxes without the consent of those taxed, (2) All free men have the right to trial by jury, (3) the monarch is not above the law, and (4) free citizens have the right to own and inherit property.",
+            "date":"1215-06-15"
+        },{
+            "name":"King Charles imposes taxes without consent",
+            "category": "Roots of American Liberty",
+            "image":"images/kingCharles.jpg",
+            "text":"King Chrles I imposes taxes without the consent of the people.  Citizens unable to pay the tax are imprisoned.",
+            "date":"1640"
+        },{
+            "name":"King Charles is executed",
+            "category": "Roots of American Liberty",
+            "image":"images/charlesExecution.jpg",
+            "text":"King Charles I is tried for treason, convicted and executed.",
+            "date":"1649"
+        },{
+            "name":"English Civil War",
+            "category": "Roots of American Liberty",
+            "image":"images/civilwar.webp",
+            "text":"Oliver Cromwell leads ...",
+            "date":"1645"
+        },{
+            "name":"End of the English Commwealth",
+            "category": "Roots of American Liberty",
+            "image":"images/endOfCommonwealth.jpg",
+            "text":"Oliver Cromwell proves to be as tyranical as some kings, saying such things as \"your Magna Charta cannot control actions taken for the safety of the Commonwealth\".  The Parliament restores the Monarchy under James II.",
+            "date":"1660"
+        },{
+            "name":"The Glorious Revolution",
+            "category": "Roots of American Liberty",
+            "image":"images/glorious.jpg",
+            "text":"The king again exercises perogative powers without the consent of the people. William of Orange, married to Mary (the king's daugher) invades England and the king flees. Parliament offers the crown to William and Mary on contidion that the King make no law without Parliament's consent.",
+            "date":"1688"
+        },{
+            "name":"John Locke writes Two Treatises on Government",
+            "category": "Roots of American Liberty",
+            "image":"images/locke.jpg",
+            "text":"In his second of Two Treatises on Government, Locke asserts that all men have natural rights of life, liberty and propeerty.  These rights are not given to the people by the government; rather, they are naturally occuring in all peoplen.",
+            "date":"1679",
+            "endDate":"1683"
+        },{
+            "name":"Habeaus Corpus Act is Passed",
+            "category": "Roots of American Liberty",
+            "image":"images/habeas.jpg",
+            "text":"Drawing on the ancient rights in the Magna Carta, Parliament passes the Habeas Corpus Act. This protects against locking people up unfairly.",
+            "date":"1679"
+        },{
+            "name":"English Bill of Rights",
+            "category": "Roots of American Liberty",
+            "image":"images/englishBillofRights.jpg",
+            "text":"Parliament passes the English Bill of Rights which, like Magna Carta, lays out rules restricting the power of the monarch and protecting the individual rights of the people.",
+            "date":"1689"
+        },{
+            "name":"Cato's Letters are Published",
+            "category": "Roots of American Liberty",
+            "image":"images/cato.png",
+            "text":"Written in England by John Trenchard and Thomas Gordon, this series of 114 essays addressed variois topics including natural rights and good government vs. tyrrany.  First published in newspapers in London and later published in book form, they were very popular in America and many of the essays were republished in American newspapers right up to the time of the American Revolution.",
+            "date":"1720",
+            "endDate":"1723"
+        },{
+            "name":"Publication of Letters from a Pennsylvania Farmer",
+            "category": "Roots of American Liberty",
+            "image":"images/farmer.jpg",
+            "text":"John Dickenson published a series of 12 essays arguing Parliament had acted illegally in laying taxes (The Townsend Duties) on the colonies because the power to raise revenue was restricted to the colonial assemblies.",
+            "date":"1767",
+            "endDate":"1768"
+        },
+        {
+            "name":"Publication of Common Sense",
+            "category": "Roots of American Liberty",
+            "image":"images/commonSense.jpg",
+            "text":"Thomas Paine published Common Sense.  The pamphlet directly argues for American independence from great Britian.  It will become the second most re-printed publication in history, surpassed only by the Holy Bible.",
+            "date":"1776-01-10"
+        },
+        {
+            "name":"Boston Massacre",
+            "category": "Prelude to Independence",
+            "image":"images/massacre.jpg",
+            "text":"Provoked by insults and flying debris, British soldiers fire on American colonists in Boston, killing five.  The soliders were tried for murder, but be exhonorated, thanks is no small part to able defense counsel provided by John Adams.",
+            "date":"1770-03-05"
+        },
+        {
+            "name":"Boston Tea Party",
+            "category": "Prelude to Independence",
+            "image":"images/teaparty.jpg",
+            "text":"Parliament had removed all taxes on tea shipped by the East India Company and all duties in the American Colonies--except for the small tax on tea.  Revolutionary leaders see this small tax as a trick to get Americans to conceed England's right to tax the colonies even though they have no representation in Parliament.  To prevent Americans from purchasing the tea, more than than 200 Bostonians board the Dartmouth, the Elanor, and the Beaver, dumping 45 tons of tea into the harbor.",
+            "date":"1773-12-16"
+        },
+        {
+            "name":"The Stamp Act Passed",
+            "category": "Prelude to Independence",
+            "image":"images/stampact.jpg",
+            "text":"Parliament passes a tax on all printed documents in America, including legal forms, playing cards, and news papers.  The purposed of the tax is to raise money to pay off debt incurred during the French and Indian War.  Americans reject England's right to levy internal taxes because they are not represented in Parliament.",
+            "date":"1765-03-22"
+        },
+        {
+            "name":"Stamp Act Congress",
+            "category": "Prelude to Independence",
+            "image":"images/stampactcongress.jpg",
+            "text":"For the first time in North America, British colonies work together to acheive a common goal.  Without representation in Parliament, the colonies have not voice to expess their concerns with the Stamp Act. The congress determines to enter a non-importation-non-exportation agreement to encourage British merchants to use thier influence in Parliament to repeal the act.",
+            "date":"1765-10-07",
+            "endDate":"1765-03-25"
+
+        },
+        {
+            "name":"Give me liberty or give me Death",
+            "category": "Prelude to Independence",
+            "image":"images/henry.jpg",
+            "text":"Patrick Henry deleveris his most famous oration at St. John's Church in Richmond, Virginia.  It includes,\"There is no retreat but in submission and slavery!  Our chains are forged! Thier clanking may be heard on the plains of Boston! The war is inevitable-and let it come.... I know now what course others may take; but as for me, give me liberty or give me death!\"",
+            "date":"1775-03-23"
+        },
+        {
+            "name":"The Coercive Acts begin",
+            "category": "Prelude to Independence",
+            "image":"images/coercive.jpg",
+            "text":"The Coercive Acts comprise four acts aimed at punishing the citizens of Boston (and Massachusetts) for the destruction of the East India Company's Tea in the Boston Tea Party.  The acts would be lifted once Massachusetts had paid for the tea.",
+            "date":"1774-03-31"
+        },
+        {
+            "name":"The First Continental Congress",
+            "category": "Prelude to Independence",
+            "image":"images/congress1.jpg",
+            "text":"Twelve Colonies send representatives to Carpenter Hall in Philadelphia to discuss possible solutions to the Coercive Acts.  They will aggree on a non-importation, non-exportation  agreement.",
+            "date":"1774-09-05",
+            "endDate":"1774-10-26"
+        },
+        {
+            "name":"The Second Continental Congress Convenes",
+            "category": "Prelude to Independence",
+            "image":"images/congress2.jpg",
+            "text":"With not resolution to the crisis in Massachusetts over the Coercive Acts, thirteen colonies send representives to the Pennsylvania State House in Philadelphia to further discuss possible remedies.",
+            "date":"1775-05-10"
+        },
+        {
+            "name":"Battles of Lexington and Concord",
+            "category": "American Revolution",
+            "image":"images/lexington.jpg",
+            "text":"Red coat troops fire on the Lexington militia, killing eight.  Later that day, milita fron Concord and surrounding communities fire on British regulars, killing three and wounding others.  By the time the soldiers made it back to Boston, 73 British solders lay dead and 174 wounded;  49 militiamen lay dead and 39 were wounded.",
+            "date":"1775-04-19"
+        },
+        {
+            "name":"Battle of Bunker Hill",
+            "category": ["American Revolution","Prelude to Independence"],
+            "image":"images/bunker.jpg",
+            "text":"Having build defensive works atop Breed's Hill, the Massachusetts militia controls the high ground overlooking tbhe warships in Boston Harbor.  More than 2,500 British soldiers attack the position.  Two attempts are repelled but the third succeeds in overtaking the hill.  The British suffer casualties of 280 dead and 800 wounded.  Patriot cssualties are less than half as many.  This battle showed that the American militiaman could stand his ground against a well-organized British attack.",
+            "date":"1775-6-9"
+        },
+        {
+            "name":"Battle of Brandywine",
+            "category": "American Revolution",
+            "image":"images/brandywine.jpg",
+            "text":"In a final attempt to defend Philadelphia, the capital of the new American Republic, General Washington with 14,600 soldiers engages General Howe's force of 15,500.  Howe's victory ensures that British will take posession of Philadelphia",
+            "date":"1777-09-11"
+        },
+        {
+            "name":"Battle of Trenton",
+            "category": "American Revolution",
+            "image":"images/trenton.jpg",
+            "text":"Washington crosses the Delawre river with 2,200 soldiers for a surprise attack on the Hessian mercenaries at Trenton, New Jersey.  In the 45 minute battle, Hessions suffer causalties of 102 men with more than 800 captured.  The Continental Army suffers only five wounded.",
+            "date":"1776-12-26"
+        }
+    ]
+} 

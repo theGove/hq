@@ -4,8 +4,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    hello world
+<body onload="init()">
+    <div id="intro" style="padding:1rem">
+        <div class="title">History Matters Game</div>
+        <div class="subtitle">Can you place historical events in chronological order?</div>
+        <div id="main-message">Loading Data...</div>
+        <div id="category"></div>
+        <p>I'd like to organize <input id="event-count" style="text-align:center; width: 1.5rem;"> historic events.</p>
+        <p style="text-align:center"><button onclick="beginGame()">Begin Game</button></p>
+    </div>
+    <div id="progress" style="display:none"></div>
+    <div id="prompt" style="display:none">Tap a green plus sign to palce this event chronologically.</div>
+    <div id="event" style="display:none"></div>
+    <div id="timebox" style="display:none"></div>
 </body>
 </html>

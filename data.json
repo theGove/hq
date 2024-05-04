@@ -1,0 +1,100 @@
+[
+
+    {"name":"IBM 726 Magnetic tape",
+     "category": "Memory and Storage",
+     "image":"images/timeline_memorystorage_1952.ibm726.jpg",
+     "text":"Magnetic tape allows for inexpensive mass storage of information and is a key part of the computer revolution.  The IBM 726 was an early and important practical high-speed magnetic tape system for electronic computers.  Announced on May 21, 1952, the system used a unique ‘vacuum channel’ method of keeping a loop of tape circulating between two points, allowing the tape drive to start and stop the tape in a split-second.  The Model 726 was initially sold in 1953 with IBM’s first electronic digital computer, the Model 701, and could store 2 million digits per tape—an enormous amount at the time.  The 726 rented for $850 a month.",
+     "date":"1952"    },
+    {"name":"UNIVAC UNISERVO tape drive",
+     "category": "Memory and Storage",
+     "image":"images/timeline_memorystorage_1951.uniservo.jpg",
+     "text":"UNIVAC introduces the \"UNISERVO\" tape drive for the UNIVAC I computer. It was the first tape storage device for a commercial computer, and the relative low cost, portability and unlimited offline capacity of magnetic tape made it very popular. UNIVAC tapes were ½\" wide, 0.0015\" thick, up to 1,500' long, and made of phosphor-bronze with a metallic coating. Weighing about three pounds, each reel could hold 1,440,000 decimal digits and could be read at 100 inches/sec. ",
+     "date":"1951"
+    },
+    {"name":"MIT - Magnetic core memory",
+     "category": "Memory and Storage",
+     "image":"images/timeline_memorystorage_1949.forrester.core.memory.jpg",
+     "text":"While working on the Whirlwind project at MIT, Jay Forrester writes a notebook entry on June 13 that describes his early thoughts on the “coincident current” technique for a magnetic core memory system. This system was the first reliable high-speed random access memory for computers. Magnetic core memory was widely used as the main memory technology for computers well into the 1970s.",
+     "date":"1949"
+    },
+    {"name":"Magnetic drum memory",
+     "category": "Memory and Storage",
+     "image":"images/timeline_memorystorage_1950.era.atlas.jpg",
+     "text":"Eager to enhance America’s codebreaking capabilities, the US Navy contracts with Engineering Research Associates (ERA) for a stored program computer. The result was Atlas, completed in 1950. Atlas used magnetic drum memory, which stored information on the outside of a rotating cylinder coated with ferromagnetic material and circled by read/write heads in fixed positions. ERA successfully sold a commercial version of the Atlas, the ERA 1103.",
+     "date":"1950"
+    },
+    {"name":"EDSAC",
+     "category": "Memory and Storage",
+     "image":"images/timeline_memorystorage_1949.edsac.jpg",
+     "text":"Maurice Wilkes and his team at the University of Cambridge construct the Electronic Delay Storage Automatic Calculator (EDSAC). EDSAC, a stored program computer, used mercury delay line memory. Wilkes had attended the University of Pennsylvania's Moore School of Engineering summer sessions about the ENIAC in 1946 and shortly thereafter began work on the EDSAC.",
+     "date":"1949-1-1"
+    },
+    {"name":"Manchester Mark I Williams-Kilburn tube",
+     "category": "Memory and Storage",
+     "image":"images/timeline_memorystorage_1947.williamskilburntube.jpg",
+     "text":"At Manchester University, Freddie Williams and Tom Kilburn develop the Williams-Kilburn tube. The tube, tested in 1947, was the first high-speed, entirely electronic memory.  It used a cathode ray tube (similar to an analog TV picture tube) to store bits as dots on the screen’s surface. Each dot lasted a fraction of a second before fading so the information was constantly refreshed. Information was read by a metal pickup plate that would detect a change in electrical charge.",
+     "date":"1947",
+     "endDate":"1948"
+    },
+    {"name":"Whirlwind core memory",
+     "category": "Memory and Storage",
+     "image":"images/timeline_memorystorage_1953.whirlwind.core.memory.jpg",
+     "text":"In 1953, MIT’s Whirlwind becomes the first computer to use magnetic core memory. Core memory is made up of tiny “donuts” made of magnetic material strung on wires into a grid.  Each core stored a bit, magnetized one way for a “zero,” and the other way for a “one.” The wires could both detect and change the state of a bit. Though several inventors were involved, it was MIT’s Jay Forrester who perfected the technology. In 1971, the introduction of the Intel 1103 DRAM integrated circuit signaled the beginning of the end for magnetic core memory in computers.",
+     "date":"1953-2-2"
+    },
+    {"name":"RAMAC",
+     "category": "Memory and Storage",
+     "image":"images/timeline_memorystorage_1956.ramac.jpg",
+     "text":"The era of magnetic disk storage dawns with IBM´s shipment of a RAMAC 305 computer system to Zellerbach Paper in San Francisco.  The computer was based on the new technology of the hard disk drive — the world’s first. The RAMAC disk drive consisted of 50 magnetically coated metal platters capable of storing about 5 million characters of data. RAMAC allowed real-time random access to large amounts of data, unlike magnetic tape or punched cards.  A working RAMAC hard disk assembly is demonstrated regularly at the Computer History Museum.",
+     "date":"1956"
+    },
+    {"name":"Bryant Chucking Grinder Company magnetic disk drive",
+     "category": "Memory and Storage",
+     "image":"images/timeline_memorystorage_1959.bryant.chucking.jpg",
+     "text":"Bryant Chucking Grinder Company, a computer drum manufacturer, explores new storage ideas. They began developing a disk drive in 1959—made up of a horizontal shaft with eight or more 39-inch magnesium disks. Few sold.  ",
+     "date":"1959-3-3"
+    },
+    {"name":"Magnetostrictive delay lines",
+     "category": "Memory and Storage",
+     "image":"images/timeline_memorystorage_1961.ferranti.sirius.jpg",
+     "text":"The Ferranti Sirius is announced. The Sirius was a small, low-cost business computer using a simple programming language. Its main memory was a magnetostrictive delay line. The medium here was a thin strip of special metal rolled into a coil, with transducers at either end. Like all delay lines, bits were fed into one end, detected at the other, and continuously recirculated.  Although this type of delay line was considered to be somewhat slow, its low cost made it attractive to computer designers.",
+     "date":"1961"
+    },
+    {"name":"Atlas computer",
+     "category": "Memory and Storage",
+     "image":"images/timeline_memorystorage_1962.tomkilburn.jpg",
+     "text":"The concept of virtual memory emerges from a team under the direction of Tom Kilburn at the University of Manchester on its Atlas computer. Virtual memory permitted a computer to use its storage capacity to switch rapidly among multiple programs or users and was a key requirement for timesharing.",
+     "date":"1962"
+    },
+    {"name":"DECtape",
+     "category": "Memory and Storage",
+     "image":"images/timeline_memorystorage_1963.dectape.jpg",
+     "text":"DECtape is introduced. It was a modification of DEC’s earlier LINCtape, and as a reliable and inexpensive storage medium was used in several generations of DEC minicomputers. The ¾-inch tape was widely thought to be an improvement over paper tape and part of its reliability stemmed from the fact that it was laminated and the magnetic part of the tape was sandwiched between two layers of mylar. DECtape was often used as a form of personal data storage, as the small reels could be easily hand-carried.",
+     "date":"1963"
+    },
+    {"name":"Card Random Access Memory (CRAM)",
+     "category": "Memory and Storage",
+     "image":"images/timeline_memorystorage_1962.cram.jpg",
+     "text":"Card Random Access Memory (CRAM) is introduced. The NCR 315 and several later NCR mainframes used this mechanically complex magnetic CRAM for secondary storage. The mylar cards were suspended from rods that selected and dropped one at a time for processing. Each CRAM deck of 256 cards recorded about 5.5 MB.",
+     "date":"1962"
+    },
+    {"name":"IBM 2315 disk cartridge",
+     "category": "Memory and Storage",
+     "image":"images/timeline_memorystorage_1964.ibm2315.jpg",
+     "text":"IBM's 2315 disk cartridge is announced. This 1MB disk cartridge was used with the IBM 1800 and 1130 computers, and it provided easily transported “personal storage” for users of those small computers. Each 2315 consisted of a magnetically coated, direct access disk encased in a plastic cartridge that easily fit into built-in disk drives. When it was inserted into the disk drive, a power drive engaged the disk and spun it at 1,500 revolutions per minute. Simultaneously, an arm extended to perform read and write functions on the disk's magnetic surfaces.",
+     "date":"1964"
+    },
+    {"name":"IBM 1311 Disk Storage Drive",
+     "category": "Memory and Storage",
+     "image":"images/timeline_memorystorage_1962.ibm.1311_2.jpg",
+     "text":"IBM 1311 Disk Storage Drive is announced. Announced on October 11, 1962, the IBM 1311 was the first disk drive IBM made with a removable disk pack. Each pack weighed about ten pounds, held six disks, and had a capacity of 2 million characters. The disks rotated at 1,500 RPM and were accessed by a hydraulic actuator with one head per disk. The 1311 offered some of the advantages of both tapes and disks.",
+     "date":"1962"
+    },
+    {"name":"Thin-film memory",
+     "category": "Memory and Storage",
+     "image":"images/timeline_memorystorage_1962.thinfilmmemory.jpg",
+     "text":"Thin-film memory is introduced. Sperry Rand developed this faster variation on core memory. Small glass plates held tiny dots of magnetic metal film interconnected with printed drive and sense wires. Used in the UNIVAC 1107 for high-speed registers, it proved too expensive for general use. However, it did find a larger market in military computers and higher end projects where speed was a premium. Several other manufacturers, such as RCA, also developed thin-film memory.",
+     "date":"1962"
+    }
+]
+    
