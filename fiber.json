@@ -1,0 +1,91 @@
+{
+    "message":"<p>Choose one or more categories below to begin.</p><p>If you are playing during Colonial Heritage Festival 2024 and you earn a perfect score on a game with at least 8 events, Penelope Thomas at the Arts exhibit to collect a quantity of unwashed wool with instructions to clean and process it.</p>",
+
+    "award":{
+        "eventCount":8,
+        "precent":100,
+        "message":"Congratulations! You earned a perfect score on a set with 8 or more events.  You have earned a quantity of raw woo, with instructions to prepare it for spinning. Find Penelope Thomas at the Fiber Arts Exhibit show het this screen. You must say \"I have become a true student of history\" to redeem your award."
+    },
+
+    "categories":[
+        {
+            "name":"Fiber Arts and Textiles",
+            "description":"The development of textile technologh prior to the American Revolution spans millenia.  Can you order these major events chronologically?"
+        }
+
+    ],
+    "events":
+    [
+        {
+            "name":"Invention of the Drop Spindle",
+            "category": "Fiber Arts and Textiles",
+            "image":"images/dropspindle.jpg",
+            "text":"The first Spindles used were just a straight stick approximately eight to twelve inches long on which the yarn is wound after twisting. Adding a weigth made of stone, clay or metal allow3e the spindle to continue spinning after being released, dramatically inceasing the speed at which one could spin thread.",
+            "dateText":"About 8,000 B.C.",
+            "date":"1900-01-01"
+        },{
+            "name":"Invention of the warp-weighted loom",
+            "category": "Fiber Arts and Textiles",
+            "image":"images/warpweightedloom.jpg",
+            "text":"The loom consists of two vertical uprights, a horizontal warp beam, a shed rod, a heddle rod, and weights. The warp threads are tied to the horizontal beam at the top and hang down vertically towards the ground. The weights, usually made of clay ofr stone, are then attached to the ends of the warp threads, which are then grouped together and tied so that the spun threads don't untwist.",
+            "dateText":"About 7,000 B.C.",
+            "date":"1900-01-02"
+        },{
+            "name":"Invention of the Distaff",
+            "category": "Fiber Arts and Textiles",
+            "image":"images/distaff.jpg",
+            "text":"A tool called the 'distaff' is just a short stick with the raw fibre loosely wound around the end to hold out of the way allowing both hands of a spnner to work fibers with a drop spindle or spinning wheel.",
+            "dateText":"About 5,000 B.C.",
+            "date":"1900-01-03"
+        },{
+            "name":"Invention of the Treadle Loom",
+            "category": "Fiber Arts and Textiles",
+            "image":"images/treadleloom.jpg",
+            "text":"In a treadle loom, the shedding is controlled by the feet, which tread on the treadles. The warp threads run parallel to the ground.  Warp tension is provided as warp streads are streched on the loom's frame.",
+            "dateText":"About 4,400 B.C.",
+            "date":"1900-01-04"
+        },{
+            "name":"Fiber artist begin dying yarn",
+            "category": "Fiber Arts and Textiles",
+            "image":"images/dyeing.png",
+            "text":"Using dyes to change the color of fibers used in making cloth added variety to clothing and was used to show social status. Early pigments used for dyeing plant and animal fibers included iron oxide, plant bark, and insects.",
+            "dateText":"About 3,000 B.C.",
+            "date":"1900-01-05"
+        },{
+            "name":"Invention of the Button",
+            "category": "Fiber Arts and Textiles",
+            "image":"images/button.jpg",
+            "text":"The Indus Valley Civilisation is credited with the invention of the button.  Ezfrly buttons were made from a curved shell. The first buttons were used as ornamental embellishments to a person's attire and signified wealth or status",
+            "dateText":"About 2,000 B.C.",
+            "date":"1900-01-06"
+        },{
+            "name":"Invention of the Buttonhole",
+            "category": "Fiber Arts and Textiles",
+            "image":"images/buttonhole.jpg",
+            "text":"Buttonholes for fastening or closing clothing with buttons made their first appearnce in Germany. However, it is believed that ancient Persians used them first. They soon became widespread with the rise of snug-fitting garments Europe.",
+            "dateText":"About A.D. 1,200",
+            "date":"1900-01-07"
+        },{
+            "name":"Invention of the Spinning Wheel",
+            "category": "Fiber Arts and Textiles",
+            "image":"images/spinningwheel.jpg",
+            "text":"The spinning was invented in the Islamic world.  This new technology spread rapidly to China but took aout 300 uears to reach Europe.",
+            "dateText":"About A.D. 1000",
+            "date":"1900-01-08"
+        },{
+            "name":"Earliest Examples of Textile Printing",
+            "category": "Fiber Arts and Textiles",
+            "image":"images/woodblockprinting.jpg",
+            "text":"Woodblock printing is a technique for printing text, images or patterns used widely throughout East Asia and probably originating in China in antiquity as a method of printing on textiles and later paper. As a method of printing on cloth.",
+            "dateText":"About 220 B.C.",
+            "date":"1900-01-09"
+        },{
+            "name":"Textile Printing begins in Europe",
+            "category": "Fiber Arts and Textiles",
+            "image":"images/woodblockfabric.jpg",
+            "text":"Textile printing was known in Europe, via the Islamic world and was widely used. However, the European dyes tended to liquify, which restricted the use of printed patterns. Fairly large and ambitious designs were printed for decorative purposes such as wall-hangings and lectern-cloths.  European pigment techniques would not we satisfactory for making cloth for clothing until the 17th century",
+            "dateText":"About A.D. 1,100",
+            "date":"1900-01-10"
+        }
+    ]
+} 

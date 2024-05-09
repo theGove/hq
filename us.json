@@ -21,8 +21,7 @@
 
     ],
     "events":
-    [
-        {
+    [{
             "name":"King John taxes Barrons for war with France",
             "category": "Roots of American Liberty",
             "image":"images/kingjohn.jpg",
@@ -140,7 +139,7 @@
             "name":"Give me liberty or give me Death",
             "category": "Prelude to Independence",
             "image":"images/henry.jpg",
-            "text":"Patrick Henry deleveris his most famous oration at St. John's Church in Richmond, Virginia.  It includes,\"There is no retreat but in submission and slavery!  Our chains are forged! Thier clanking may be heard on the plains of Boston! The war is inevitable-and let it come.... I know now what course others may take; but as for me, give me liberty or give me death!\"",
+            "text":"Patrick Henry deleveris his most famous oration at St. John's Church in Richmond, Virginia.  It includes,\"There is no retreat but in submission and slavery!  Our chains are forged! Thier clanking may be heard on the plains of Boston! The war is inevitable-and let it come.... I know not what course others may take; but as for me, give me liberty or give me death!\"",
             "date":"1775-03-23"
         },
         {
@@ -192,6 +191,48 @@
             "image":"images/trenton.jpg",
             "text":"Washington crosses the Delawre river with 2,200 soldiers for a surprise attack on the Hessian mercenaries at Trenton, New Jersey.  In the 45 minute battle, Hessions suffer causalties of 102 men with more than 800 captured.  The Continental Army suffers only five wounded.",
             "date":"1776-12-26"
+        },
+        {
+            "name":"Battle of Monmouth",
+            "category": "American Revolution",
+            "image":"images/monmouth.jpg",
+            "text":"General George Washington had ordered his secondin command, Charles Lee, to take a small force of the Continental Army ahead of him and engage the redcoats until Washington could assemble the rest of the army from Valley Forge. After several hours of engaging with the British, Charles Lee ordered the forces to retreat from the battlefield. Washington met up with Lee on the road near Monmouth Courthouse, New Jersey.  Washington countermanded Lee's orders and march the troops to attack the retreating British army with good effect.",
+            "date":"1778-06-28"
+        },
+        {
+            "name":"Battle of King's Mountain",
+            "category": "American Revolution",
+            "image":"images/monmouth.jpg",
+            "text":"In South Carolina, this battle was fought between a Patriot militia against the Loyalist army under Major Patrick Ferfuson. Unwilling to surrenter, the Loyalist army made a suicidal charge down the mountain.  Shredded by pagtriot bullets, the Loyalists suffered 157 killed, 163 wounded, and 698 captured while the Patriots suffered just 28 killed and 60 wounded.",
+            "date":"1780-10-07"
+        },
+        {
+            "name":"Battle of Fort Ticonderoga",
+            "category": "American Revolution",
+            "image":"images/monmouth.jpg",
+            "text":"Fort Ticonderoga was was located in Lake Champlain in northeastern New York. Benedict Arnold, Ethan Allen and the Green Mountain Boys of Vermont joined forces and launched a dawn surprise attack on the fort. This small-scale battle provided much-needed artillery for the Continental Army.",
+            "date":"1775-05-10"
+        },
+        {
+            "name":"Battle of Saratoga",
+            "category": "American Revolution",
+            "image":"images/monmouth.jpg",
+            "text":"This battle is regarded as the turning point battle in the American revolution in favor of Americans. The British, under General John Burgoyne, attacked the Americans at Bemis Heights but were forced to retreat. This American victory convinced the French government to join the war as an American ally by providing open military assistance.",
+            "date":"1778-"
+        },
+        {
+            "name":"Battle of ",
+            "category": "American Revolution",
+            "image":"images/monmouth.jpg",
+            "text":"",
+            "date":"1778-"
+        },
+        {
+            "name":"Battle of ",
+            "category": "American Revolution",
+            "image":"images/monmouth.jpg",
+            "text":"",
+            "date":"1778-"
         }
     ]
 } 

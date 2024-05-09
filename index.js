@@ -189,7 +189,9 @@ function dateString(theEvent){
     const fmtDate = formatDate(theEvent.date)
     if(theEvent.endDate){
       //has a start and an end date
-      return fmtDate + " - " + formatDate(theEvent.endDate)    }else{
+      return fmtDate + " - " + formatDate(theEvent.endDate)   
+    }else if(theEvent.dateText){
+        return theEvent.dateText
     }
     // only a start Date
 
@@ -278,6 +280,8 @@ function showPluses(show=true){
 
 function askEvent(){
   const elem=tag("event")
+  elem.style.maxHeight=""
+  elem.style.overflowY=""
   tag("progress").scrollIntoView()
   elem.style.display=""
   if(events.length<1){
@@ -531,4 +535,14 @@ function getParams(query_string) {
       url_params[decodeURI(temp[0])] = decodeURI(temp[1])
     }
     return url_params
+  }
+
+  function unstick(elem){
+    if(elem.style.overflowY==="clip"){
+        elem.style.maxHeight=""
+        elem.style.overflowY=""
+    }else{
+        elem.style.maxHeight="100px"
+        elem.style.overflowY="clip"
+    }
   }
