@@ -10,13 +10,12 @@
     "categories":[
         {
             "name":"Fiber Arts and Textiles",
-            "description":"The development of textile technologh prior to the American Revolution spans millenia.  Can you order these major events chronologically?"
+            "description":"The development of textile technology prior to the American Revolution spans millenia.  Can you order these major events chronologically?  This one is pretty difficult, it may take you a few times to get it correct."
         }
 
     ],
     "events":
-    [
-        {
+    [{
             "name":"Invention of the Drop Spindle",
             "category": "Fiber Arts and Textiles",
             "image":"images/dropspindle.jpg",

@@ -1,0 +1,96 @@
+{
+
+
+    "categories":[
+        {
+            "name":"Major Events of the American Founding",
+            "description":"These are the major events of the American Founding.  Can you order these major events chronologically?"
+        }
+
+    ],
+    "events":
+    [
+        {
+            "name":"Jamestowne Settlement Begins",
+            "category": "Major Events of the American Founding",
+            "image":"images/jamestown.jpg",
+            "text":"Jamestown is the first permanent English settlement in North America.  The death rate was high in the early days.  After failed attempts of finding gold and making glassware for export to Europe, Jamestown and the colony of Virginia will find financial success withe the production of tobacco.",
+            "date":"1607"
+        },{
+            "name":"The Mayflower brings Pilgrims to America",
+            "category": "Major Events of the American Founding",
+            "image":"images/mayflower.jpg",
+            "text":"The \"pilgrims\" called themselves sepratists becuase they had decided to separated from the Church of England to live the way of life they understood the bible to teach.  They founded Plimoth Colony, which was among the few to be a financial success.",
+            "date":"1620"
+        },{
+            "name":"The Firsts Thanksgiving",
+            "category": "Major Events of the American Founding",
+            "image":"images/than ksgiving.png",
+            "text":"The colonisits at Plimoth Plantation gathered in thier harvest and prepared for a feast to celebrate the success of their farming cycle.  Only about half of the 100 pilgrims has lived this long, but they were joined by 90 Wamponoug for the three-day feast.",
+            "date":"1621"
+        },{
+            "name":"French and Indian War",
+            "category": "Major Events of the American Founding",
+            "image":"images/7years.png",
+            "text":"To protect what they see as their holdings in North America, Great Britian engages the french army, aided by several tribes of native Americans, in a war lasting seven years.  George Washington will serve as a Captain in the British Army and many other American colonisits will learn how to be soldiers in the war.",
+            "date":"1754",
+            "endDate":"1763"
+        },        {
+            "name":"The Stamp Act Passed",
+            "category": "Major Events of the American Founding",
+            "image":"images/stampact.jpg",
+            "text":"Parliament passes a tax on all printed documents in America, including legal forms, playing cards, and news papers.  The purposed of the tax is to raise money to pay off debt incurred during the French and Indian War.  Americans reject England's right to levy internal taxes because they are not represented in Parliament.",
+            "date":"1765-03-22"
+        },
+        {
+            "name":"Boston Massacre",
+            "category": "Prelude to Independence",
+            "image":"images/massacre.jpg",
+            "text":"Provoked by insults and flying debris, British soldiers fire on American colonists in Boston, killing five.  The soliders were tried for murder, but be exhonorated, thanks is no small part to able defense counsel provided by John Adams.",
+            "date":"1770-03-05"
+        },
+        {
+            "name":"Boston Tea Party",
+            "category": "Prelude to Independence",
+            "image":"images/teaparty.jpg",
+            "text":"Parliament had removed all taxes on tea shipped by the East India Company and all duties in the American Colonies--except for the small tax on tea.  Revolutionary leaders see this small tax as a trick to get Americans to conceed England's right to tax the colonies even though they have no representation in Parliament.  To prevent Americans from purchasing the tea, more than than 200 Bostonians board the Dartmouth, the Elanor, and the Beaver, dumping 45 tons of tea into the harbor.",
+            "date":"1773-12-16"
+        },{
+        "name":"Paul Revere's Ride",
+        "category": "Major Events of the American Founding",
+        "image":"images/revere.jpg",
+        "text":"Paul Revere learned that the British soldiers were marching toward Concorde, Massachusetts to seize muskets, cannon, ball, powder and other supplies that the colonists had collected to defend American liberty by force of arms. Revere, along with nearly 60 other pariots rode throught the night to call the militia of outlying communites to come defend the wepons at Concord. ",
+        "date":""
+    },{
+        "name":"Start of the American Revolution",
+        "category": "Major Events of the American Founding",
+        "image":"images/dropspindle.jpg",
+        "text":"",
+        "date":""
+    },{
+        "name":"Declaration of Independence",
+        "category": "Major Events of the American Founding",
+        "image":"images/dropspindle.jpg",
+        "text":"",
+        "date":""
+    },{
+        "name":"End of the American Revolution",
+        "category": "Major Events of the American Founding",
+        "image":"images/dropspindle.jpg",
+        "text":"",
+        "date":""
+    },{
+        "name":"Constitution Ratified",
+        "category": "Major Events of the American Founding",
+        "image":"images/dropspindle.jpg",
+        "text":"",
+        "date":""
+    },{
+        "name":"Bill of Rights Ratified",
+        "category": "Major Events of the American Founding",
+        "image":"images/dropspindle.jpg",
+        "text":"",
+        "date":""
+    }
+]
+} 

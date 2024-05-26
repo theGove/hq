@@ -1,0 +1,105 @@
+{
+    "message":"<p>Choose one or more categories below to begin.</p><p>If you are playing during Colonial Heritage Festival 2024 and you earn a perfect score on a game with at least 8 events, Penelope Thomas at the Arts exhibit to collect a quantity of unwashed wool with instructions to clean and process it.</p>",
+
+    "award":{
+        "eventCount":8,
+        "precent":100,
+        "message":"Congratulations! You earned a perfect score on a set with 8 or more events.  You have earned a quantity of raw woo, with instructions to prepare it for spinning. Find Penelope Thomas at the Fiber Arts Exhibit show het this screen. You must say \"I have become a true student of history\" to redeem your award."
+    },
+
+    "categories":[
+        {
+            "name":"Processing Flax into Linen",
+            "description":"The basic steps to turn fibers fron the plant called flax in to linen textitles was developed about eight thousand years ago and was virutally unchangted throught the Amerian founding.  Can you order the steps chronologically?"
+        }
+
+    ],
+    "events":
+    [
+        {
+            "name":"Plowing",
+            "category": "Processing Flax into Linen",
+            "image":"images/plowing.jpg",
+            "text":"Flax linen grows in fertile well-drained soil. After winter a deep plowing is necessary for the planting of flax.",
+            "dateText":"Step #1",
+            "date":"1900-01-01"
+        },{
+            "name":"Sowing",
+            "category": "Processing Flax into Linen",
+            "image":"images/Sowing.png",
+            "text":"The sowing of flax linen must be done very early in the morning on a windless day due to the very small size of the seed. By the 18th century, sowing was often done by hired professionals because it was so critical. They would use certain rhythms and patterns as they threw the seed so that it was evenly dispersed.",
+            "dateText":"Step #2",
+            "date":"1900-01-02"
+        },{
+            "name":"Pulling",
+            "category": "Processing Flax into Linen",
+            "image":"images/pulling.jpg",
+            "text":"When flax linen is harvested it is pulled, rather than cut in order to obtain the longest fiber. Also, when the roots are left intact the plant withstands being stooked better for a period of time. The harvest season begins about one month after the flax begins blooming. Pulling is very strenuous work, and harvesters often injured their backs.",
+            "dateText":"Step #3",
+            "date":"1900-01-03"
+        },{
+            "name":"Stooking",
+            "category": "Processing Flax into Linen",
+            "image":"images/stooking.jpg",
+            "text":"In order for the flax linen to dry it was bundled together and tied. These bundles are called ‘beets’ and are left standing until they are entirely dry. By stooking the flax it dried evenly, verses laying it out in the sun. Higher quality fiber turned white when it dried, while the lesser turned brownish.",
+            "dateText":"Step #4",
+            "date":"1900-01-04"
+        },{
+            "name":"Rippling",
+            "category": "Processing Flax into Linen",
+            "image":"images/rippling.jpg",
+            "text":"This is the process used to deseed the flax. The top ends of the dry bundles of flax are pulled through nails hammered into a board, like a comb. The seeds are collected below on a sheet. At this point the flax can be stored for a while as long as it is kept dry.",
+            "dateText":"Step #5",
+            "date":"1900-01-05"
+        },{
+            "name":"Retting",
+            "category": "Processing Flax into Linen",
+            "image":"images/retting.jpg",
+            "text":"Retting is the process of rotting away the inner stalk using bacteria, leaving the outer fibers intact. The bacterium decomposes the pectin, which binds the stalk and fibers together, allowing the fibers to in a sense be freed from the stalk without damaging them. The bacterium is active in a hot moist environment, but if left to long in this environment the fibers themselves will also rot ruining the flax altogether. The water is changed or the flax rinsed periodically for four to five days until the retting process is finished.",
+            "dateText":"Step #6",
+            "date":"1900-01-06"
+        },{
+            "name":"Breaking",
+            "category": "Processing Flax into Linen",
+            "image":"images/breaking.jpg",
+            "text":"Once the fibers are loosened by retting the process of breaking is used to break up the inner woody stalk into smaller pieces so that it is separated from the flax. This is done by putting handfuls of flax into the wooden blades of a breaking machine and beating the flax from the bottom of the stalk to the top. The broken wood fragments, called ‘shives’ fall through the fiber to the ground.",
+            "dateText":"Step #7",
+            "date":"1900-01-07"
+        },{
+            "name":"Scutching",
+            "category": "Processing Flax into Linen",
+            "image":"images/scutching.jpg",
+            "text":"The broken shives that do not fall to the ground must be scutched out. This is done by swinging a wooden scotching knife down the flax which scrapes it and pulls away the shives that remain.",
+            "dateText":"Step #8",
+            "date":"1900-01-08"
+        },{
+            "name":"Hackling",
+            "category": "Processing Flax into Linen",
+            "image":"images/hackling.jpg",
+            "text":"This is the process that prepares the flax for spinning in which it is pulled through various different sized hackles. First it is pulled through a hackle with nails spaced fairly far apart to remove the straw and then the hackles with nails close together would polish and split the fibers. The fibers that come off on the hackle are bundled to provide a lower quality product still of some value, while the hackled flax that remains intact is cleaned once more and achieves a gloss and suppleness which make it ideal for spinning.",
+            "dateText":"Step #9",
+            "date":"1900-01-09"
+        },{
+            "name":"Spinning",
+            "category": "Processing Flax into Linen",
+            "image":"images/spinning.jpg",
+            "text":"Depending on the preference of the spinner, flax linen can either be spun from a distaff, or the spinner may simply lay flax fibers in their lap. From this point on much of the process is the same as that for wool",
+            "dateText":"Step #10",
+            "date":"1900-01-10"
+        },{
+            "name":"Weaving",
+            "category": "Processing Flax into Linen",
+            "image":"images/weaving2.jpg",
+            "text":"Weaving is the process in which the flax threads are interlaced to form the linen fabric. On a loom, or frame, the length-wise threads known as the warp are fixed under tension while another thread is woven through the warp which is called the weft. The warp threads are separated and the weft is carried through them on a shuttle.",
+            "dateText":"Step #11",
+            "date":"1900-01-11"
+        },{
+            "name":"Bleaching",
+            "category": "Processing Flax into Linen",
+            "image":"images/bleaching.jpg",
+            "text":"Linen is naturally a tan color which is then bleached white. After being bleached it can be dyed any color.",
+            "dateText":"Step #12",
+            "date":"1900-01-12"
+        }
+    ]
+} 
