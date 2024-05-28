@@ -1,8 +1,8 @@
 const events=[]
 let data = null
 let eventBuffer=null
-const pos=['Excellent!','Good show!','Well done.','Nice job.','Oh, you are good.', "Well, that's pretty good.",'Top job!','Brilliant!',"You're a genius!",'Right on!', "Look at you!", "Nice work, smarty pants.","You get bragging rights for that one.","You are mahrvelous"]
-const neg=["Oh, so close.","Missed it by \"that\" much.","You'll get it next time.","Perfection is a process.","Take this as a learning opportunity.","Never give up.","Try, try again.","You only fail if you quit,","That was a hard one.", "Hmmm.  I don't think anyone knows that one.",'Sorry.','So sad.','Not quite.','Ouch.',"This just isn't your day."]
+const pos=['Excellent!','Good show!','Well done.','Nice job.','Oh, you are good.', "Well, that's pretty good.",'Top job!','Brilliant!',"You're a genius!",'Right on!', "Look at you!", "Nice work, smarty pants.","You get bragging rights for that one.","You are marvelous."]
+const neg=["Oh, so close.","Missed it by \"that\" much.","You'll get it next time.","Perfection is a process.","Take this as a learning opportunity.","Never give up.","Try, try again.","You only fail if you quit.","That was a hard one.", "Hmmm.  I don't think anyone knows that one.",'Sorry.','So sad.','Not quite.','Ouch.',"This just isn't your day."]
 const correctColor = "darkgreen"
 const incorrectColor = "darkred"
 const monthnames=["January","February","March","April","May","June","July","August","September","October","November","December"]
@@ -148,7 +148,7 @@ async function init(){
   const dataPath=params.d || "us.json"
   const response=await fetch(dataPath)
   data = await response.json()
-  //console.log("data",data)
+  console.log("data",data)
 
   const mainMessage=data.message || "<p>Choose one or more categories below to begin.</p>"
 
@@ -162,6 +162,7 @@ async function init(){
 
   for(const event of data.events){
     for(category of fixArray(event.category)){
+        console.log("category",category)
         data.categories[data.index[category]].count++
     } 
   }
@@ -361,13 +362,13 @@ function scorePalcement(theEvent){
   recordScore(theEvent.number,correct)
   const elem=tag("message")
   if(tags.length===1){
-      elem.innerHTML="We've placed one the one for you.  Now you choose if the next one goes before or after.<br><br>  Tap to continue."
+      elem.innerHTML=`We've placed the first one for you.  Now you choose if the next one goes before or after.<br><br><span class="tap">Tap to continue</span>.`
   }else if(correct){
-    elem.innerHTML=pos[randBetween(0,pos.length-1)] + " Tap to continue."
+    elem.innerHTML=pos[randBetween(0,pos.length-1)] + ` <span class="tap-green">Tap to continue</span>.`
     elem.style.backgroundColor= correctColor
     elem.style.color= "white"
   }else{
-    elem.innerHTML=neg[randBetween(0,neg.length-1)] + " We'll put it in the right place when you tap to continue."
+    elem.innerHTML=neg[randBetween(0,neg.length-1)] +  ` We'll put it in the right place when you. <span class="tap-red">Tap to continue</span>.`
     elem.style.backgroundColor= incorrectColor
     elem.style.color= "white"
   }
@@ -376,14 +377,22 @@ function scorePalcement(theEvent){
 
 function proceed(evt){
     console.log(evt)
-    const elem=evt.target.previousElementSibling
+    let m=evt.target
+    
+    while(m.id!=="message"){
+        m=m.parentElement
+    }
+    
+    const elem=m.previousElementSibling
     elem.style.zoom=1
     let needToMove=false
     
-    if(evt.target.style.backgroundColor===incorrectColor){
+    if(m.style.backgroundColor===incorrectColor){
         needToMove=true
     }
-    evt.target.remove()
+
+    m.remove()
+
     if(needToMove){
         if(elem.previousElementSibling.className==="bar"){
             elem.previousElementSibling.remove()
@@ -395,6 +404,7 @@ function proceed(evt){
     }
     askEvent()  
 }
+
 function placeEvent(evt){
     let moving=false
     if(evt){
@@ -406,7 +416,7 @@ function placeEvent(evt){
         const tags=tag("timebox").querySelectorAll(".event-container")
         let foundIndex=0
         for(let x=0;x<tags.length;x++){
-            console.log("-----",x,eventBuffer.sequence,tags[x].dataset.sequence)
+            //console.log("-----",x,eventBuffer.sequence,tags[x].dataset.sequence)
           if(eventBuffer.sequence>tags[x].dataset.sequence){
             foundIndex=x+1
           }

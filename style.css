@@ -57,6 +57,9 @@ th{
     margin-bottom: 1rem;
     border-radius: 5px ;
 }
+.tap-green{color:lightgreen}
+.tap-red{color:red}
+.tap{color:green}
 #prompt{
     padding:1rem;
     background-color: lightgreen;

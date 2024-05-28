@@ -1,0 +1,125 @@
+{
+    "message":"<p>Choose one or more categories below to begin.</p><p>If you are playing during Colonial Heritage Festival 2024 and you earn a perfect score on a game with at least 8 events, Penelope Thomas at the Arts exhibit to collect a quantity of unwashed wool with instructions to clean and process it.</p>",
+
+    "award":{
+        "eventCount":8,
+        "precent":100,
+        "message":"Congratulations! You earned a perfect score on a set with 8 or more events.  You have earned a quantity of raw woo, with instructions to prepare it for spinning. Find Penelope Thomas at the Fiber Arts Exhibit show het this screen. You must say \"I have become a true student of history\" to redeem your award."
+    },
+
+    "categories":[
+        {
+            "name":"George Washington's Life",
+            "description":"George Washington has been called \"America's indispensable man\".  Can place these major events in his life in chronological order?"
+        }
+
+    ],
+    "events":
+    [
+        {
+            "name":"Born",
+            "category": "George Washington's Life",
+            "image":"images/plowing.jpg",
+            "text":"George Washington was born in Westmoreland County, Virginia to Augustine Washington and his second wife Mary Ball.",
+            "date":"1732"
+        },{
+            "name":"Moves to the home of his youth",
+            "category": "George Washington's Life",
+            "image":"images/plowing.jpg",
+            "text":"Washington family moved to Ferry Farm (a plantation on the Rappahannock River near Fredericksburg); George Washington spent most of his youth here.",
+            "date":"1738"
+        },{
+            "name":"Father Dies",
+            "category": "George Washington's Life",
+            "image":"images/plowing.jpg",
+            "text":"Augustine Washington, George’s father, died.  Although George Washington was the older child of the Ball-Washington household, Augustine left most of his property to his sons from his first marriage. George inherited 10 slaves from his father’s estate. Following the death of his father, George Washington’s formal education ended.  George Washington was only 11 years old.",
+            "date":"1743"
+        },{
+            "name":"Begins work as a surveyor",
+            "category": "George Washington's Life",
+            "image":"images/plowing.jpg",
+            "text":"George Washington was appointed county surveyor of the frontier county of Culpeper.  He was seventeen years old.",
+            "date":"1749"
+        },{
+            "name":"Trip to Barbados",
+            "category": "George Washington's Life",
+            "image":"images/plowing.jpg",
+            "text":"George Washington traveled to Barbados with his half-brother Lawrence in an attempt to cure the latter of a respiratory illness. George contracted smallpox while on the island. The trip was the only time George Washington traveled outside of the North American continent.",
+            "date":"1751",
+            "endDate":"1752"
+        },{
+            "name":"Deliver's message to French in Ohio",
+            "category": "George Washington's Life",
+            "image":"images/plowing.jpg",
+            "text":"Virginia Governor Robert Dinwiddie sent Major George Washington to the Ohio Valley to deliver a message to the French, demanding that they leave the area.",
+            "date":"1753"
+        },{
+            "name":"Surrender at Fort Necessity",
+            "category": "George Washington's Life",
+            "image":"images/plowing.jpg",
+            "text":"Major Washington and 150 soldiers traveled to the Ohio Valley to fight for Virginia’s claim of the land.  As part of the campaign, Washington’s men engaged in a combative confrontation with French soldiers.  Following this skirmish, Washington and his men retreated to the makeshift Fort Necessity, where Washington was soon forced to surrender.  This event deeply embarrassed Washington and he resigned his commission.  This failed campaign sparked the French and Indian War.",
+            "date":"1754"
+        },{
+            "name":"Battle of the Monongahela",
+            "category": "George Washington's Life",
+            "image":"images/plowing.jpg",
+            "text":"Washington returned to the Ohio frontier as a volunteer aide for General Braddock.  During a battle between the French and the British near the Monongahela River, Washington exhibited great courage and leadership.  He was later recognized for his conduct in battle with a promotion and was given command of the entire military force of Virginia.",
+            "date":"1755"
+        },{
+            "name":"Marries Martha",
+            "category": "George Washington's Life",
+            "image":"images/plowing.jpg",
+            "text":"On January 6, George Washington married Martha Dandridge Custis.  A native of the Tidewater region of Virginia, Martha Custis was a young widow who recently had inherited enormous wealth after the passing of her husband, Daniel Parke Custis. She was also the mother of two young children, Jacky and Patsy.  Following the marriage between George and Martha, the newlywed couple and Martha’s two children moved to Mount Vernon.",
+            "date":"1759"
+        },{
+            "name":"A Gentleman Farmer",
+            "category": "George Washington's Life",
+            "image":"images/plowing.jpg",
+            "text":"George Washington was a Gentleman Farmer at Mount Vernon in the years between his marriage to Martha and the onset of the American Revolution.  Washington experimented with different farming techniques while also expanding his home at Mount Vernon.",
+            "date":"1760",
+            "endDate":"1774"
+        },{
+            "name":"Appointed commander of Continental Army",
+            "category": "George Washington's Life",
+            "image":"images/plowing.jpg",
+            "text":"The newly formed Congress appointed George Washington to be the commander of the Continental Army.  Washington held this position for the entirety of the American Revolution",
+            "date":"1775"
+        },{
+            "name":"Retires from military service",
+            "category": "George Washington's Life",
+            "image":"images/plowing.jpg",
+            "text":"Following the end of the American Revolution, Washington addressed Congress on December 23 in Annapolis and resigned his commission.  Through this action, Washington gave the power back to the people and was declared a hero around the world.",
+            "date":"1783"
+        },{
+            "name":"Presides over the Constitutional Convention",
+            "category": "George Washington's Life",
+            "image":"images/plowing.jpg",
+            "text":"Although determined to retire from public life after the Revolutionary War, Washington re-entered the public sphere and was unanimously elected president of what is now known as the Constitutional Convention.",
+            "date":"1787"
+        },{
+            "name":"Begins service as presient of the United States",
+            "category": "George Washington's Life",
+            "image":"images/plowing.jpg",
+            "text":"George Washington was unanimously elected as first President of the United States",
+            "date":"1789"
+        },{
+            "name":"Begins second presidential term",
+            "category": "George Washington's Life",
+            "image":"images/plowing.jpg",
+            "text":"Although prefering to retire to Mount Vernon, Washington is pursuafed by Alexandar Hamilton and James Madison to serve a second term.",
+            "date":"1793"
+        },{
+            "name":"Retires from Public Life",
+            "category": "George Washington's Life",
+            "image":"images/plowing.jpg",
+            "text":"Refusing a third term, Washington retired from the presidency and all public life.  By leaving office after two terms, Washington set a precedent that has been held to by most of the American presidents who followed him.  He returned to Mount Vernon and enjoyed a peaceful retirement.",
+            "date":"1797"
+        },{
+            "name":"Dies at Mount Vernon",
+            "category": "George Washington's Life",
+            "image":"images/plowing.jpg",
+            "text":"George Washington passed away on December 14 from a throat infection called epiglottitis in his bedroom at Mount Vernon. He was surrounded by close friends and his loving wife Martha.",
+            "date":"1799"
+        }
+    ]
+} 
