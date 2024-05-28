@@ -1,0 +1,223 @@
+{
+    "message":"<p>If you are playing during Colonial Heritage Festival 2024 and you earn a perfect score on a game with all 17 events, you will earn the right to print a copy of the Declaration of Independence to keep.</p>",
+
+    "award":{
+        "eventCount":17,
+        "precent":100,
+        "message":"Congratulations! You earned a perfect score.  You qualify print and keep a copy of the Declaration of Independence. Find Isaiah Thomas at the print shop and show him this screen. You must say \"I have become a true student of history\" to redeem your award."
+    },
+
+    "categories":[
+        {
+            "name":"Benjamin Frankin's Life",
+            "description":"Benjamin Franklin was a printer, scienteist, writer, entreprenuer, inventer, philosopher, and statesman.  Can you place these major events in his life in chronological order?"
+        }
+
+    ],
+    "events":
+    [
+        {
+            "name":"Birth",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"Benjamin Franklin was born on January 17, in Boston, Massachusetts. He was the tenth son of puritan Josiah Franklin, a soap and candle maker, and Abiah Folger.",
+            "date":"1706"
+        },{
+            "name":"Begins formal education",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"Benjamin attended Boston Latin School for two years but had to leave the following year due to financial constraints. He continued his education informally, voraciously reading books and practicing writing.",
+            "dateText":"1714 - 8 years old",
+            "date":"17"
+        },{
+            "name":"Begins Apprentship",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"At a young age, Franklin was introduced to the family's candle and soap making business. However, not enjoying that work, he was soon apprenticed to his brother James, a printer. This apprenticeship introduced Benjamin to the world of printing and publishing. During this time, Franklin's love for reading, writing, and knowledge began to manifest. His apprenticeship with James laid the groundwork for his later ventures in publishing, writing, and his endless pursuit of knowledge.",
+            "dateText":"1717 - 11 years old",
+            "date":"1717"
+        },{
+            "name":"Silence Dogood",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"Franklin began to submit articles and essays under the pseudonym \"Mrs. Silence Dogood\" to his brother's newspaper, the New-England Courant. these letters were a series of witty and satirical essays that commented on various aspects of colonial life, society, and manners. The writings gained significant attention and applause, though no one, including James, knew the true identity of the author.",
+            "dateText":"1719 - 13 years old",
+            "date":"1719"
+        },{
+            "name":"The New-England Courant Controversy",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"As Benjamin's confidence and skills grew, so did the tensions between him and his brother James. This culminated in disagreements and disputes regarding the content and management of the Courant. Under James's leadership, The New-England Courant occasionally published content that was critical of the colonial government. This led to James's arrest in 1721 on charges of \"a high Affront\" to the government's authority. During James's imprisonment, Benjamin, despite being an apprentice, took over the publication and management of the paper.",
+            "dateText":"1721 - 15 years old",
+            "date":"1721"
+        },{
+            "name":"Breaking his indenture",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"The tumultuous relationship with his brother James reached a breaking point. Bound by a legal apprenticeship, Benjamin took a bold step to escape these constraints. He fled Boston for Philadelphia, leaving behind his familial ties and his role at The New-England Courant. ",
+            "dateText":"1722 - 16 years old",
+            "date":"1722"
+        },{
+            "name":"Travels to London",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"Perhaps the most significant connection Franklin made during the early years in Philadelphia was with Sir William Keith, then the Governor of Pennsylvania. Impressed by the young printer's talents and ambitions, Keith proposed to set Franklin up in his own printing business. Sending him to London with a letter of credit to acquire the needed equipment. Upon arrival, he would soon realize that Keith's promises were empty, leaving the young entrepreneur stranded in a foreign land. ",
+            "dateText":"1723 - 17 years old",
+            "date":"1723"
+        },{
+            "name":"Work at Watts' Printing House",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"Franklin behan to work for John Watts, a renowned printer in London. This position allowed Franklin to further refine his skills and gain a deeper understanding of the printing industry.  Living in one of the great metropolises of the world provided Franklin with access to London's rich intellectual environment.  He frequented coffee houses, which were the social and intellectual hubs of the time, engaging in discussions and debates that expanded his horizons.",
+            "dateText":"1724 - 18 years old",
+            "date":"1724"
+        },{
+            "name":"Return to Philadelphia",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"Franklin departed London for Philadelphia, employed in the trading and mercantile business of merchant Thomas Denham, who had facilitated his return. This venture outside the world of printing gave Franklin insights into the broader economic workings of the colonies.",
+            "dateText":"1725 - 19 years old",
+            "date":"1725"
+        },{
+            "name":"‍Founding of the Junto Club",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"Drawing inspiration from the intellectual milieu of London's coffee houses, Franklin established the Junto Club. This was a group of like-minded young men who met weekly to discuss philosophical, political, and scientific topics. The Junto, also referred to as the Leather Apron Club, became a cornerstone of Philadelphia's intellectual life and played a role in fostering various public projects in the coming years.",
+            "dateText":"1726 - 20 years old",
+            "date":"1726"
+        },{
+            "name":"The First Public Library",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"One of the Junto Club's first major initiatives, inspired by Franklin's proposition, was the establishment of the Library Company of Philadelphia. This wasn't a public library in the modern sense but a subscription library, allowing members to pool resources to purchase books.",
+            "dateText":"1727 - 21 years old",
+            "date":"1727"
+        },{
+            "name":"Launching His Own Printing Shop",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"Franklin and his new partner, Hugh Meredith opened a printing house in Philadelphia. Despite financial constraints and the challenges of starting a new business, the duo managed to set up a budding enterprise that would soon gain prominence in the colonies. Later this year, Franklin took over the printing of the \"Pennsylvania Gazette.\" Under Franklin's stewardship, the newspaper gained a reputation for its quality content, reflecting Franklin's sharp editorial skills and keen understanding of public sentiment.",
+            "dateText":"1728 - 22 years old",
+            "date":"1728"
+        },{
+            "name":"Begins printing Poor Richard's Almanack,",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"Franklin began publishing \"Poor Richard's Almanack\" under the pseudonym Richard Saunders. The almanac, a blend of weather forecasts, proverbs, poems, and astronomical and astrological information, became exceedingly popular. Its witty aphorisms and practical advice cemented Franklin's reputation as both a publisher and a sage.",
+            "dateText":"1732 - 26 years old",
+            "date":"1732"
+        },{
+            "name":"Establishment of the Union Fire Company",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"Recognizing the pressing need for organized firefighting in the rapidly growing city of Philadelphia, Franklin played a pivotal role in founding the Union Fire Company. Often dubbed as the \"Bucket Brigade,\" this initiative was America's first volunteer firefighting organization, highlighting Franklin's commitment to community welfare.",
+            "dateText":"1736 - 30 years old",
+            "date":"1736"
+        },{
+            "name":"Appointment as Postmaster of Philadelphia",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"In a significant advancement in Franklin's public career, he was appointed the Postmaster of Philadelphia. This role not only augmented his influence but also facilitated more efficient mail services, laying the groundwork for his later reforms in the colonial postal system.",
+            "dateText":"1737 - 31 years old",
+            "date":"1737"
+        },{
+            "name":"The Pennsylvania Fireplace",
+            "image":"images/franklin.jpg",
+            "category": "Benjamin Frankin's Life",
+            "text":"Franklin introduces one of his most practical and enduring inventions: the Franklin stove, also known as the Pennsylvania Fireplace. Designed to provide more heat with less smoke, this invention revolutionized home heating, highlighting Franklin's prowess in blending science with practicality. Franklin refuses to patent his invention, insisting that its benefits should be free to humanity,",
+            "dateText":"1742 - 36 years old",
+            "date":"1742"
+        },{
+            "name":"Retirement from Printing",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"Franklin transferred the active management of his printing house to his partner, David Hall, allowing him greater leisure for scientific pursuits and public service.",
+            "dateText":"1748 - 42 years old",
+            "date":"1748"
+        },{
+            "name":"Invntion of the Lightning Rod",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"His fascination with electricity led him to pen a letter to Peter Collinson detailing the protective uses of the lightning rod, a revolutionary concept for safeguarding buildings from lightning strikes.",
+            "dateText":"1750 - 44 years old",
+            "date":"1750"
+        },{
+            "name":"Kite Experiment",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"Franklin conducts his audacious kite experiment, a venture into the throes of a thunderstorm to demonstrate the electrical nature of lightning. With a key and a kite, he not only substantiated his hypothesis on the nature of lightening but also illuminated pathways for future electrical research.",
+            "dateText":"1752 - 46 years old",
+            "date":"1752"
+        },{
+            "name":"Attempts to Unite the Colonies",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/joinordie.jpg",
+            "text":"Franklin's visionary proposal, the Albany Plan, aimed to unite the colonies under a single federal council, ensuring collective defense and governance. However, at this time, colonies see themselves as competitors for royal favor and choose not to unite.  In support of this idea, Franklin pens America's first polotical cartoon with the caption \"Join or Die!\"",
+            "dateText":"1754 - 48 years old",
+            "date":"1754"
+        },{
+            "name":"The Hutchinson Letters Affair",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/joinordioe.jpg",
+            "text":"Franklin obtained, and then sent to American politicians, a series of confidential letters penned by Thomas Hutchinson, the loyalist Governor of Massachusetts. These letters advocated for a curtailment of colonial rights, and their publication caused an uproar on both sides of the Atlantic. Franklin's role in the affair, once discovered, would cost him dearly in terms of reputation among the British elite.",
+            "dateText":"1772 - 66 years old",
+            "date":"1772"
+        },{
+            "name":"Privy Council Hearing",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"Franklin is called before the privy council in London to answer for his role in relasing the private correspondence of Massachusetts governor, Thomas Hutchisons. He is lambasted for his actions, facing a torrent of abuse from Solicitor-General Alexander Wedderburn. This is a significant event in pushsing Franklin toward supporting Amercan independence",
+            "dateText":"1773 - 67 years old",
+            "date":"1773"
+        },{
+            "name":"Appointment to the Second Continental Congress",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"Franklin was appointed as a Pennsylvania delegate to the Second Continental Congress in Philadelphia. Here, he would work with luminaries like John Adams, Thomas Jefferson, and John Hancock to steer the direction of the revolutionary cause.",
+            "dateText":"1775 -69 years old",
+            "date":"1775"
+        },{
+            "name":"Signs the Declaration of Independence",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"Benjamin Franklin was one of the five members (Committee of Five) selected to draft the Declaration of Independence, alongside Thomas Jefferson, John Adams, Roger Sherman, and Robert R. Livingston. While Jefferson penned the initial draft, Franklin's revisions and insights were invaluable.  After brief debate and a few changes in congress, Franklin and 56 others will sign the document declaring The Unites States of America to be free and independent.",
+            "dateText":"1776 - 70 years old",
+            "date":"1776"
+        },{
+            "name":"Treaty of Alliance with France",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"The Treaty of Alliance with France was formalized on February 6, with Franklin as one of the American commissioners. This Franco-American alliance ensured that France would provide military support to the United States in their fight against Britain.",
+            "dateText":"1778 - 72 years old",
+            "date":"1778"
+        },{
+            "name":"Treaty of Paris",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"Granklin, along with John Adams and John Jay, signed of the Treaty of Paris on September 3, which officially ended the American Revolutionary War. The terms they negotiated were favorable to the Americans, recognizing the independence of the United States and establishing generous boundaries.",
+            "dateText":"1783 - 77 years old",
+            "date":"1783"
+        },{
+            "name":"A Delegate to the Constitutional Convention",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"The Constitutional Convention was convened to address the inadequacies of the Articles of Confederation. Benjamin Franklin was the oldest delegate, but his wisdom, wit, and diplomatic skills were unmatched. His influence was felt in various capacities throughout the proceedings.  He will be one of 39 delegates to sign the document.‍",
+            "dateText":"1787 - 81 years old",
+            "date":"1787"
+        },{
+            "name":"Death",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"On April 17, Benjamin Franklin passed away in Philadelphia.Having lived to see the consitution ratified ",
+            "dateText":"1790 - 84 years old",
+            "date":"1790"
+        },{
+            "name":"Pennsylvania Society for Promoting the Abolition of Slavery",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"Deeply moved by the abolitionist cause, Franklin became more actively involved in the society's activities this year, underlining his evolving stance against the institution of slavery, having freed all his slaves two years previouosly.",
+            "dateText":"1785 - 79 years old",
+            "date":"1785"
+        }
+    ]
+} 
