@@ -368,7 +368,7 @@ function scorePalcement(theEvent){
     elem.style.backgroundColor= correctColor
     elem.style.color= "white"
   }else{
-    elem.innerHTML=neg[randBetween(0,neg.length-1)] +  ` We'll put it in the right place when you. <span class="tap-red">Tap to continue</span>.`
+    elem.innerHTML=neg[randBetween(0,neg.length-1)] +  ` We'll put it in the right place when you <span class="tap-red">tap to continue</span>.`
     elem.style.backgroundColor= incorrectColor
     elem.style.color= "white"
   }
@@ -464,7 +464,9 @@ function placeEvent(evt){
     eDiv.innerHTML=eventHtml(theEvent)
     placeDiv(elem,true,eContainer)
 
-    if(!moving){
+    if(moving){
+        eContainer.querySelector(".header").style.backgroundColor=incorrectColor
+    }else{
         eContainer.style.zoom = .5
         placeDiv(elem,true,msg)
         scorePalcement(theEvent)

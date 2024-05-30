@@ -28,7 +28,7 @@
             "image":"images/franklin.jpg",
             "text":"Benjamin attended Boston Latin School for two years but had to leave the following year due to financial constraints. He continued his education informally, voraciously reading books and practicing writing.",
             "dateText":"1714 - 8 years old",
-            "date":"17"
+            "date":"1714"
         },{
             "name":"Begins Apprentship",
             "category": "Benjamin Frankin's Life",
@@ -151,14 +151,14 @@
         },{
             "name":"Attempts to Unite the Colonies",
             "category": "Benjamin Frankin's Life",
-            "image":"images/joinordie.jpg",
+            "image":"images/joinordie.png",
             "text":"Franklin's visionary proposal, the Albany Plan, aimed to unite the colonies under a single federal council, ensuring collective defense and governance. However, at this time, colonies see themselves as competitors for royal favor and choose not to unite.  In support of this idea, Franklin pens America's first polotical cartoon with the caption \"Join or Die!\"",
             "dateText":"1754 - 48 years old",
             "date":"1754"
         },{
             "name":"The Hutchinson Letters Affair",
             "category": "Benjamin Frankin's Life",
-            "image":"images/joinordioe.jpg",
+            "image":"images/franklin.jpg",
             "text":"Franklin obtained, and then sent to American politicians, a series of confidential letters penned by Thomas Hutchinson, the loyalist Governor of Massachusetts. These letters advocated for a curtailment of colonial rights, and their publication caused an uproar on both sides of the Atlantic. Franklin's role in the affair, once discovered, would cost him dearly in terms of reputation among the British elite.",
             "dateText":"1772 - 66 years old",
             "date":"1772"
@@ -198,6 +198,13 @@
             "dateText":"1783 - 77 years old",
             "date":"1783"
         },{
+            "name":"Pennsylvania Society for Promoting the Abolition of Slavery",
+            "category": "Benjamin Frankin's Life",
+            "image":"images/franklin.jpg",
+            "text":"Deeply moved by the abolitionist cause, Franklin became more actively involved in the society's activities this year, underlining his evolving stance against the institution of slavery, having freed all his slaves two years previouosly.",
+            "dateText":"1785 - 79 years old",
+            "date":"1785"
+        },{
             "name":"A Delegate to the Constitutional Convention",
             "category": "Benjamin Frankin's Life",
             "image":"images/franklin.jpg",
@@ -208,16 +215,9 @@
             "name":"Death",
             "category": "Benjamin Frankin's Life",
             "image":"images/franklin.jpg",
-            "text":"On April 17, Benjamin Franklin passed away in Philadelphia.Having lived to see the consitution ratified ",
+            "text":"On April 17, Benjamin Franklin passed away in Philadelphia, having lived to see the consitution ratified.",
             "dateText":"1790 - 84 years old",
             "date":"1790"
-        },{
-            "name":"Pennsylvania Society for Promoting the Abolition of Slavery",
-            "category": "Benjamin Frankin's Life",
-            "image":"images/franklin.jpg",
-            "text":"Deeply moved by the abolitionist cause, Franklin became more actively involved in the society's activities this year, underlining his evolving stance against the institution of slavery, having freed all his slaves two years previouosly.",
-            "dateText":"1785 - 79 years old",
-            "date":"1785"
         }
     ]
 } 
