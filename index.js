@@ -1,5 +1,6 @@
-const events=[]
+let events=[]
 let data = null
+let rawData = null
 let eventBuffer=null
 const pos=['Excellent!','Good show!','Well done.','Nice job.','Oh, you are good.', "Well, that's pretty good.",'Top job!','Brilliant!',"You're a genius!",'Right on!', "Look at you!", "Nice work, smarty pants.","You get bragging rights for that one.","You are marvelous."]
 const neg=["Oh, so close.","Missed it by \"that\" much.","You'll get it next time.","Perfection is a process.","Take this as a learning opportunity.","Never give up.","Try, try again.","You only fail if you quit.","That was a hard one.", "Hmmm.  I don't think anyone knows that one.",'Sorry.','So sad.','Not quite.','Ouch.',"This just isn't your day."]
@@ -15,13 +16,15 @@ function newGame(){
     showGame(true)
     tag("progress").replaceChildren()
     tag("timebox").replaceChildren()
+    init()
 }
 
 function beginGame(){
-
-    startIndexes=[]
-    eventIndex={}
-    chosenCategories = []
+    events=[]   
+    const startIndexes=[]
+    const eventIndex={}
+    const chosenCategories = []
+    eventBuffer = null
     let x=0
 
     tag("timebox").innerHTML=`<div class="bar"><div id="firstPlus" onclick="placeEvent(event)" class="add">+</div></div>`
@@ -55,7 +58,7 @@ function beginGame(){
        
     }
     //now local data should have only events from the categories specified
-    console.log(localData)
+    console.log("local-data----->",localData)
 
 
     for(let x=0;x<qNum;x++){
@@ -143,42 +146,65 @@ function fixArray(data){
 }
 async function init(){
   const params = getParams(location.search)
-  const qNum=params.n || 8
-  tag("event-count").value=qNum
-  const dataPath=params.d || "us.json"
-  const response=await fetch(dataPath)
-  data = await response.json()
-  console.log("data",data)
+  
+  
+    if(!rawData){
+        let dataPath=params.d || "us.json"
+        if(!dataPath.endsWith(".json")){
+            dataPath+=".json"
+          }        const response=await fetch(dataPath)
+        rawData = await response.json()
+    }
 
-  const mainMessage=data.message || "<p>Choose one or more categories below to begin.</p>"
+    data=JSON.parse(JSON.stringify(rawData))
+    console.log("rawdata",rawData)
+    console.log("data",data)
+    
+    let qNum=data.n
+    if(params.n){
+        qNum=params.n
+    } else if(!qNum){
+        qNum=data.events.length
+    }
+    tag("event-count").value=qNum
 
-  tag("main-message").innerHTML=mainMessage
+  let mainMessage=data.message
 
+  
   data.index={}
   for(let c=0;c<data.categories.length;c++){
-    data.index[data.categories[c].name]=c
-    data.categories[c].count=0
-  }
-
-  for(const event of data.events){
-    for(category of fixArray(event.category)){
-        console.log("category",category)
-        data.categories[data.index[category]].count++
+      data.index[data.categories[c].name]=c
+      data.categories[c].count=0
+    }
+    
+    for(const event of data.events){
+        for(category of fixArray(event.category)){
+            console.log("category",category)
+            data.categories[data.index[category]].count++
+        } 
+    }
+    const html=["<table>"]
+    for(const category of data.categories){
+        html.push(`<tr><td><input id="${category.name.toLowerCase().split(" ").join("-")}" type="checkbox" onclick="chooseCategory(event)" checked="checked"  class="category-name" data-category-name="${category.name}"></td><td><b>${category.name}</b></td></tr>`)
+        html.push(`<tr><td></td><td>${category.description}</td></tr>`)
+        html.push(`<tr><td></td><td style="color:darkgrey">Questions: ${category.count}</td></tr>`)
+        html.push(`<tr><td colspan="2">&nbsp;</td></tr>`)
+    }
+    
+    html.push("</table>")
+    tag("category").innerHTML=html.join("")
+    console.log(data)
+    
+    if(data.categories.length===1){
+        //if there's only one category, hide the checkbox
+        const category=data.categories[0]
+        document.getElementById(category.name.toLowerCase().split(" ").join("-")).style.visibility="hidden"
+    } else{
+        if(!mainMessage){mainMessage="<p>Choose one or more categories below to begin.</p>"}
     } 
-  }
-  const html=["<table>"]
-  for(const category of data.categories){
-    html.push(`<tr><td><input id="${category.name.toLowerCase().split(" ").join("-")}" type="checkbox" onclick="chooseCategory(event)" checked="checked"  class="category-name" data-category-name="${category.name}"></td><td><b>${category.name}</b></td></tr>`)
-    html.push(`<tr><td></td><td>${category.description}</td></tr>`)
-    html.push(`<tr><td></td><td style="color:darkgrey">Questions: ${category.count}</td></tr>`)
-    html.push(`<tr><td colspan="2">&nbsp;</td></tr>`)
-  }
-  html.push("</table>")
-  tag("category").innerHTML=html.join("")
-  console.log(data)
-
-
-
+    tag("main-message").innerHTML=mainMessage
+    
+    
 }
 
 function monthName(monthNumber){
