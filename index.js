@@ -58,8 +58,8 @@ function beginGame(){
        
     }
     //now local data should have only events from the categories specified
-    console.log("local-data----->",localData)
-
+    //print("local-data----->",localData)
+    placeDebugToggle()
 
     for(let x=0;x<qNum;x++){
       let theEvent = null
@@ -100,14 +100,14 @@ function beginGame(){
     }
 
     startIndexes.sort(compareFn)
-    console.log("startIndexes",startIndexes)
+    //print("startIndexes",startIndexes)
     
     for(let x=0;x<startIndexes.length;x++){
         events[eventIndex[startIndexes[x]]].sequence=x
     }
-  
+    //print("------ Events ---------")
     for(let x=0;x<events.length;x++){
-      console.log (events[x].date, events[x].sequence,events[x].startIndex,events[x].endIndex)
+      //print(events[x].date, events[x].sequence,events[x].startIndex,events[x].endIndex)
     }
 
     showGame()
@@ -157,8 +157,8 @@ async function init(){
     }
 
     data=JSON.parse(JSON.stringify(rawData))
-    console.log("rawdata",rawData)
-    console.log("data",data)
+    //print("rawdata",rawData)
+    //print("data",data)
     
     let qNum=data.n
     if(params.n){
@@ -271,8 +271,10 @@ function calcDateIndex(theDate){
         //no day
         dateArray.push(1)
     }
-
-    const d = new Date(`${dateArray[0]}-${dateArray[1]}-${dateArray[2]} ${timeArray[0]}:${timeArray[1]}`)
+    //print("new Date Base:",`${dateArray[0]}-${dateArray[1]}-${dateArray[2]}T${timeArray[0]}:${timeArray[1]}`)
+    //const d = new Date(`${dateArray[0]}-${dateArray[1]}-${dateArray[2]} ${timeArray[0]}:${timeArray[1]}`)
+    const d = new Date(dateArray[0],dateArray[1],dateArray[2],timeArray[0],timeArray[1])
+    //print("d:",d)
     return d.getTime()
 }
 
@@ -285,7 +287,53 @@ function placeScoreBox(num){
     div.innerHTML=num+1
     tag("progress").appendChild(div)
 }
+
+function print(){
+    //writes to the debug div.  for debugging only
+    console.log("printing",tag("debug").childNodes.length)
+
+    let backgroundColor="white"
+    const printNodes  = tag("debug").childNodes.length
+    if(printNodes && tag("debug").childNodes[printNodes-1].style.backgroundColor==="white"){
+       backgroundColor="whitesmoke"
+    } 
+
+
+    for(const arg of arguments){
+        const div = document.createElement("div")
+        div.className="debug-line"
+        div.style.backgroundColor = backgroundColor
+        if(typeof arg ==="string"){
+            div.innerHTML=arg
+        }else{
+            div.innerHTML=JSON.stringify(arg)
+        }
+        
+        tag("debug").appendChild(div)
+    }
+}
+
+function placeDebugToggle(){
+    return// disabled, only use for debuggig on mac
+    const btn = document.createElement("button")
+    btn.innerText  = "T"
+    btn.id="tog-debug"
+    btn.addEventListener("click",function(){
+        console.log("eee--")
+        if(tag("debug").style.display==="none"){
+            tag("debug").style.display="block"
+        }else{
+            tag("debug").style.display="none"    
+        }
+    })
+    tag("progress").appendChild(btn)
+}
+
+function toggleDebug(){
+    console.log("i'm togglin'")
+}
 function recordScore(num, correct=true){
+    //print(num, correct)
     tag("score-"+num).style.color="white"
     if(correct){
         tag("score-"+num).style.backgroundColor=correctColor
@@ -368,17 +416,18 @@ function scorePalcement(theEvent){
   let correct=true
   for(let x=0;x<tags.length;x++){
     const elem = tags[x]
-    console.log(elem.dataset.sequence,theEvent.sequence, elem.id)
-    console.log("theevent",theEvent)
+    //print(elem.dataset,theEvent, elem.id)
+    //print(elem.dataset.sequence,theEvent.sequence, elem.id)
+    //print("theevent",theEvent)
     if(parseInt(elem.dataset.sequence)===theEvent.sequence){
         // This is the one that was just placed
-        if(x>0 && x<tags.length){console.log("--->",tags[x-1].dataset.sequence,tags[x].dataset.sequence)}
+        if(x>0 && x<tags.length){print("--->",tags[x-1].dataset.sequence,tags[x].dataset.sequence)}
 
         if((x>0 && parseInt(tags[x-1].dataset.sequence) > parseInt(tags[x].dataset.sequence))||(x<tags.length-1 && parseInt(tags[x].dataset.sequence) > parseInt(tags[x+1].dataset.sequence))){
             //misplaced
             //elem.querySelector(".header").style.backgroundColor="darkred"
             correct=false
-            console.log("placed",tags[x])
+            //print("placed",tags[x])
             break
         }
     }
@@ -503,7 +552,8 @@ function placeEvent(evt){
     const theImage = eContainer.querySelector("img")
     console.log("theImage",theImage)
     console.log("h",theImage.height)
-    eDiv.style.minHeight=theImage.height + "px" 
+    eDiv.style.minHeight="100px" 
+    print('Height',theImage.height)
   
 }
 
